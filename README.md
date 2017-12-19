@@ -8,7 +8,7 @@ Pyschophys is an open source tool for manipulating and analyzing circadian rhyth
 
 1. Intall R and RStudio. You can find step-by-step nstructions for both installing R and Rstudio for Mac and Windows [here.](https://courses.edx.org/courses/UTAustinX/UT.7.01x/3T2014/56c5437b88fa43cf828bff5371c6a924/)
     
-    *New to R and Rstudio? Check out this pre-refresher [video](https://youtu.be/lVKMsaWju8w)*
+    *New to R and Rstudio? Check out this pre-refresher [video](https://youtu.be/lVKMsaWju8w) and [cheatsheet.](https://www.rstudio.com/wp-content/uploads/2016/01/rstudio-IDE-cheatsheet.pdf)*
 
 2. Open Rstudio and install a stable version of shiny from CRAN, by executing the following command in the RStudio console:
 
