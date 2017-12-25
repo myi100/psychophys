@@ -33,40 +33,13 @@ shinyUI(
                                      ),
                                      helpText("The sleep intervals data should be in .csv format and contains..."),
                                      br(),
-                                     verbatimTextOutput("consoleA")
+                                     htmlOutput("consoleA")
                                    )
 
                                  ),
                                  hr(),
                                  h6("Pediatric Public Health Psychology Lab (PPHP), Concordia Unviersity")
-                        )
+                        ),
+                        tabPanel("B: Prepare Physical Activity Variables")
   )
 ))
-
-
-
-
-# # Define UI for application that draws a histogram
-# shinyUI(fluidPage(
-#   
-#   # Application title
-#   titlePanel("Psychophys"),
-#   br(),
-#   h5("Analysis of circadian rhythms underlying 24 hour ambulatory data."),
-#   h6("Pediatric Public Health Psychology Lab (PPHP), Concordia Unviersity"),
-#   br(),
-#   # Sidebar with a slider input for number of bins 
-#   sidebarLayout(
-#     sidebarPanel(
-#       selectInput("tutorial", "Select Tutorial:",
-#                   c("A: Derive Sleep & Apocalpyse Vars" = "a",
-#                     "B: Prepare Physial Activity Vars" = "b",
-#                     "C: Cosinor (Physical Activity)" = "c"))
-#     ),
-#     
-#     # Show a plot of the generated distribution
-#     mainPanel(
-#       verbatimTextOutput("console")
-#     )
-#   )
-# ))
