@@ -16,7 +16,7 @@ Pyschophys is an open source tool for manipulating and analyzing circadian rhyth
 
 3. You must also install the following dependencies:
         
-        intall.packages("lubridate")
+        install.packages("lubridate")
 
 3. Download and run psychophys, execute the following command in the RStudio console: 
 
